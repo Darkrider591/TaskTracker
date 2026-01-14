@@ -361,3 +361,30 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+
+
+# Ignore build outputs
+bin/
+obj/
+_Publish/
+
+# Ignore Visual Studio temp files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore NuGet packages
+packages/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore .exe, .dll, .pdb
+*.exe
+*.dll
+*.pdb
