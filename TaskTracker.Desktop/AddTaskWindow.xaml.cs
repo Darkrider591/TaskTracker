@@ -5,8 +5,7 @@ namespace TaskTracker.Desktop;
 
 public partial class AddTaskWindow : Window
 {
-    // 👇 Используем полное имя модели!
-    public TaskTracker.Core.Models.Task? NewTask { get; private set; }
+        public TaskTracker.Core.Models.Task? NewTask { get; private set; }
 
     public AddTaskWindow()
     {

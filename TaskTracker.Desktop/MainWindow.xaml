@@ -12,13 +12,13 @@
         <!-- Верхняя панель: кнопка + статистика + календарь -->
         <Border Grid.Row="0" Background="White" Margin="10,10,10,0" Padding="12" CornerRadius="8" BorderBrush="#E0E0E0" BorderThickness="1">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-                <Button Content="+ Новая задача" Click="AddTask_Click" 
+                <Button Content="+ New task" Click="AddTask_Click" 
                         Background="#4F46E5" Foreground="White" 
                         Height="32" MinWidth="120" 
                         BorderThickness="0" Margin="0,0,10,0"/>
 
                 <!-- Статистика -->
-                <TextBlock Text="Статус:" FontWeight="SemiBold" Foreground="#2D3748" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <TextBlock Text="Status:" FontWeight="SemiBold" Foreground="#2D3748" VerticalAlignment="Center" Margin="0,0,10,0"/>
                 <Border Background="#6C47FF" Padding="8,4" CornerRadius="4" Margin="0,0,5,0">
                     <TextBlock Text="{Binding ToDoCount}" Foreground="White"/>
                 </Border>
@@ -33,7 +33,7 @@
                 </Border>
 
                 <!-- Квадранты -->
-                <TextBlock Text="Матрица:" FontWeight="SemiBold" Foreground="#2D3748" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <TextBlock Text="Matrix:" FontWeight="SemiBold" Foreground="#2D3748" VerticalAlignment="Center" Margin="0,0,10,0"/>
                 <Border Background="#FF6B6B" Padding="8,4" CornerRadius="4" Margin="0,0,5,0">
                     <TextBlock Text="{Binding UrgentImportantCount}" Foreground="White"/>
                 </Border>
@@ -48,7 +48,7 @@
                 </Border>
 
                 <!-- Кнопка календаря -->
-                <Button Content="Календарь" Click="ShowCalendar_Click" 
+                <Button Content="Calendar" Click="ShowCalendar_Click" 
                         Background="#4F46E5" Foreground="White" 
                         Height="32" MinWidth="100" 
                         BorderThickness="0"/>

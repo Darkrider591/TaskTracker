@@ -60,7 +60,7 @@ public partial class TaskDetailsWindow : Window
 
     private void DeleteButton_Click(object sender, RoutedEventArgs e)
     {
-        var result = MessageBox.Show("Удалить задачу?", "Подтверждение", MessageBoxButton.YesNo, MessageBoxImage.Question);
+        var result = MessageBox.Show("Delete Task?", "Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Question);
         if (result == MessageBoxResult.Yes)
         {
             IsDeleted = true;
