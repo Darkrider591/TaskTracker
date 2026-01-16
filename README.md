@@ -1,6 +1,6 @@
 # TaskTracker — Local Task Tracker
 
-[Screen TaskTracker v1.3.1](https://github.com/Darkrider591/TaskTracker/blob/main/TaskTracker.jpg)
+![Screen TaskTracker v1.3.1](https://github.com/Darkrider591/TaskTracker/blob/main/TaskTracker.jpg)
 
 A simple task management application.
 Works **locally**, data is stored in SQLite.
